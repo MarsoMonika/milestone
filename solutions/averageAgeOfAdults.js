@@ -14,9 +14,17 @@ Calculate the average age of those users who are adults (above or equal 18). Ret
 You do not have to deal with the case, when there are only underage users in the list.
 
 */
+let age = "";
+let arr = [];
 
 function averageAgeOfAdults(users) {
-
+  let averageAdultsAge = 0;
+  if (age > 17){
+    for (let i = 0; i < arr.length; i++){
+      averageAdultsAge += arr.age[i];
+    }
+  }
+  return averageAdultsAge / arr.length;
 }
 
 module.exports = averageAgeOfAdults;
